@@ -6,6 +6,7 @@
 
 
 # week2) 모달 창 구현하기
+![image](https://github.com/user-attachments/assets/ce167d7a-5e3e-4862-a83d-d394ab727aa8)
 
 **목표:**
 
