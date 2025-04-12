@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+  <title>모달창 실습</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">모달창 실습 예제</h1>
+    <h2 class="subtitle">충북대 구름톤 유니브 FE스터디 기초반 WEEK1</h2>
+    <button id="openBtn" class="open-button" >OPEN MODAL</button>
+    <p id="greetingText" class="greeting"></p>
+  </main>
+  
+  <div id="modalOverlay" class="overlay">
+    <div id="modalBox" class="modal">
+      <h2 class="modal-title">이름을 입력해주세요</h2>
+      <div class="input-wrapper">
+        <input id="nameInput" type="text" placeholder="예 : 홍길동" />
+      </div>
+      <button onclick="submitName()">COMPLETE!</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
